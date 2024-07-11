@@ -8,7 +8,7 @@ class Pet:
         self.name = name
         self.pet_type = pet_type
         self.owner = owner
-        Pet.all.append(self) #adds the current Pet instance self o the pet.all list
+        Pet.all.append(self) #adds the current Pet instance self of the pet.all list
 
 
 # the pet_type property has a setter that checks if the provided pet_type is in the PET_TYPES list,If not it raises an exception
